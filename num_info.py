@@ -71,7 +71,7 @@ def get_number_info(number: str) -> str:
 def main():
     """Main CLI"""
     print("=" * 45)
-    print(" Number Info Tool ")
+    print(" Number Info Tool by IamTechyAnimesh ")
     print("=" * 45)
     print(f"Running on: {platform.system()} {platform.release()}")
     print()
@@ -96,3 +96,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\nExiting... Bye")
         sys.exit(0)
+
