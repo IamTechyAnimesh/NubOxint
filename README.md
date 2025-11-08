@@ -20,7 +20,7 @@ Prerequisites:
 ```powershell
 python -m pip install -r requirements.txt
 ```
-<p>For Linux/Termux</p>
+<p>For Linux/Termux:</p>
 
 ```powershell
 pip3 install -r requirements.txt
@@ -32,7 +32,7 @@ pip3 install -r requirements.txt --break-system-packages
 
 <h3>Run the tool:</h3>
 
-<p>For Windows</p>
+<p>For Windows:</p>
 
 ```powershell
 python num_info.py
@@ -59,4 +59,5 @@ This tool performs OSINT lookups. Use it responsibly and only on Indian phone nu
 - Script author: [@IamTechyAnimesh](https://github.com/IamTechyAnimesh/)
 
 ---
+
 
