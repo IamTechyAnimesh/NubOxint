@@ -71,19 +71,20 @@ def get_number_info(number: str) -> str:
 def main():
     """Main CLI"""
     print("=" * 45)
-    print(" Number Info Tool by IamTechyAnimesh ")
+    print(" Number Info Tool ")
     print("=" * 45)
     print(f"Running on: {platform.system()} {platform.release()}")
     print()
 
     while True:
-        number = input("Enter a number (or 'q' to quit): ").strip()
+        number = input("Enter a number (10 digits) (or 'q' to quit): ").strip()
         if number.lower() == 'q':
             print("\n👋 Goodbye!")
             break
 
-        if not number.isdigit():
-            print("Please enter a valid number.\n")
+        # Require a 10-digit numeric phone number. If invalid, ask again.
+        if not number.isdigit() or len(number) != 10:
+            print("Please enter a valid 10-digit number.\n")
             continue
 
         print("\nFetching info...")
@@ -96,4 +97,3 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\nExiting... Bye")
         sys.exit(0)
-
