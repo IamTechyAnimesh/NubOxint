@@ -14,13 +14,30 @@ Prerequisites:
 - Python 3.8+ installed
 - Internet connection
 
-Install dependencies:
+<h3>Install dependencies:</h3>
+<p>For Windows</p>
 
 ```powershell
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
+```
+<p>For Linux/Termux</p>
+
+```powershell
+pip3 install -r requirements.txt
 ```
 
-Run the tool:
+```powershell
+pip3 install -r requirements.txt --break-system-packages
+```
+
+<h3>Run the tool:</h3>
+
+<p>For Windows</p>
+
+```powershell
+python num_info.py
+```
+<p>For Linux/Termux</p>
 
 ```powershell
 python num_info.py
@@ -42,3 +59,4 @@ This tool performs OSINT lookups. Use it responsibly and only on Indian phone nu
 - Script author: [@IamTechyAnimesh](https://github.com/IamTechyAnimesh/)
 
 ---
+
